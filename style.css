@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #0026ff; /* Adjust text color for better visibility */
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    //background-color: #5992d7; /* Transparent background for the header */
+    color: #0026ff;
+}
+
+.icon {
+    width: 30px; /* Adjust size */
+    height: 30px;
+    margin-right: 5px;
+    vertical-align: middle; /* Align icons with text */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #5992d7;
+    padding: 1rem;
+}
+
+    .navbar a {
+        color: #0026ff;
+        text-decoration: none;
+        margin: 0 1rem;
+        font-weight: bold;
+    }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+main {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #5992d7;
+}
